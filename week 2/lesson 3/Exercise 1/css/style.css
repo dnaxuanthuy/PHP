@@ -1,0 +1,41 @@
+.body	{
+	background-color: yellow;
+	background-repeat: repeat-x;
+	font-family: Verdana;
+}
+
+.nav {
+	background: pink;
+	border: 1px solid black;
+	width: 75%;
+	margin: auto;
+	text-align: center;
+}
+
+#menu li {
+	list-style-type: none;
+	display: inline;
+	padding: 5px;
+	border: 1px solid;
+}
+
+a:hover{
+	background: purple;
+    color: pink;
+    text-decoration: none;
+}
+
+h1 {
+	font-family: Arial;
+	color: red;
+}
+
+h2 {
+	font-family: Courier New;
+	color: white;
+}
+
+.footer {
+	background: red;
+	text-align: center;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercise 1</title>
+</head>
+<body>
+	<form action="action.php" id="form">
+       <h1>Thanh toán</h1>
+       <p>
+       	<label for="fullname">Tên đầy đủ</label>
+       	<input type="text" name="fullname" placeholder="Nhập tên đầy đủ người mua hàng" id="fullname">
+       </p>
+       <p>
+       	<label for="password">Password</label>
+       	<input type="text" name="password" placeholder="Nhập password" id="password">
+       </p>
+       <p>
+       	<label for="email">Email</label>
+       	<input type="text" name="email" placeholder="Nhập email" id="email">
+       </p>
+       <p>
+       	<label for="ngaysinh">Ngày sinh</label>
+       	<input type="date" name="ngaysinh" placeholder="mm/dd/yyyy" id="ngaysinh">
+       </p>
+       <p>
+       	<label>Mặt hàng mua</label>
+       	<input type="text" name="mathangmua" list="mhm">
+       	<datalist id="mhm">
+       		<option value="shoes">Shoes</option>
+       		<option value="socks">Socks</option>
+       		<option value="shirt">Shirt</option>
+       		<option value="sandals">Sandals</option>
+       		<option value="trousers">Trousers</option>
+       	</datalist>
+       </p>
+       <p>
+       	<label>Số lượng mua</label>
+       	<input type="number" name="slmua" min="1" max="5">
+       </p>
+       <p>
+       	<label>Bán kính vận chuyển</label>
+       	<input type="range" name="range" min="10" max="20">
+       </p>
+       <input type="submit" name="submit" value="Đăng kí">
+    </form>
+</body>
+</html>
