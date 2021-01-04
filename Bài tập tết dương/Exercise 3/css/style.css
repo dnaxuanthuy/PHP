@@ -1,0 +1,43 @@
+#content {
+	background-color: black;
+	height: 600px;
+}
+
+.content-left {
+	width: 40%;
+	height: 500px;
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	float: left;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.text-contentleft {
+	color: white;
+	display: block;
+}
+
+.buttonleft {
+	background-color: blue;
+}
+
+.content-right {
+	width: 60%;
+	height: 500px;
+	float: right;
+	color: white;
+	display: inline-block;
+}
+
+.content-right .tb1 li{
+	list-style-type: none;
+	margin-top: 20px;
+}
+
+.content-right .tb2 li{
+	list-style-type: none;
+	margin-top: 20px;
+
+}
