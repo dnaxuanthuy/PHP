@@ -1,0 +1,17 @@
+.header {
+	width: 100%;
+	height: 300px;
+}
+
+
+.anhmonan img {
+      width: 50%;
+      height: 300px;
+      float: left;
+}
+
+.trangmonan {
+	float: right;
+	width: 50%;
+	text-align: center;
+}
